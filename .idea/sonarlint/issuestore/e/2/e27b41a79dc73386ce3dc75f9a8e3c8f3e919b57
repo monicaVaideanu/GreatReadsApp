@@ -1,0 +1,8 @@
+
+p
+java:S1104
+"UMake readBooks a static final constant or non-public and provide accessors if needed.(õ‰”šıÿÿÿÿ
+i
+java:S1104"SMake reviews a static final constant or non-public and provide accessors if needed.(Ãëìö
+j
+java:S1104"TMake wishList a static final constant or non-public and provide accessors if needed.(õĞ˜û
