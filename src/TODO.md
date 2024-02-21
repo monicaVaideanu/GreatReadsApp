@@ -11,6 +11,11 @@ Calls I need to implement
 -getAllReviewsByUser
 -getAllBooksInStatusPending
 -getAllAuthors
+- getBooksFromCollection
+TODO
+- manyToMany books-genres
+- change PK from int to UUID
+- o carte poate apratine unei colectii => add field de colectie
 - separare metode in controllere specifice
 
 Validation:
