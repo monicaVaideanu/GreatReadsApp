@@ -5,59 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="Todo">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cabb939da04d3de3a200bf2b575690e1a16316d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f7301ea851e3a37ca0062b1a0f7c5c806df6a18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab68fdcfde404869df29a56778a0b538943fc29b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cabb939da04d3de3a200bf2b575690e1a16316d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/f/4f7301ea851e3a37ca0062b1a0f7c5c806df6a18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/b/ab68fdcfde404869df29a56778a0b538943fc29b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookToAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserPublishedBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserReadBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserWhislist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17d523b6a7fdce5b3dd0965fd232ae725c874b11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bbfbcbba77c976890be3a10b80f11761958d5b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a54b91b3026aefce3c84a47695ae3f1b7482358" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df81d0fbd3372ae7e33a54243f169f5a399e0172" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19b356665ae9250eee3dd3f71cdb2fa06c69558" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e27b41a79dc73386ce3dc75f9a8e3c8f3e919b57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e87093d8080efdf217fafd5e7c75b4741a7326e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb1600cf0a732cd9d1abe029d6033ba40522a8bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb1600cf0a732cd9d1abe029d6033ba40522a8bf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17d523b6a7fdce5b3dd0965fd232ae725c874b11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4bbfbcbba77c976890be3a10b80f11761958d5b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8a54b91b3026aefce3c84a47695ae3f1b7482358" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df81d0fbd3372ae7e33a54243f169f5a399e0172" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e19b356665ae9250eee3dd3f71cdb2fa06c69558" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e27b41a79dc73386ce3dc75f9a8e3c8f3e919b57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e87093d8080efdf217fafd5e7c75b4741a7326e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +87,8 @@
       <workItem from="1708367562151" duration="2688000" />
       <workItem from="1708536567824" duration="2140000" />
       <workItem from="1708539279887" duration="444000" />
-      <workItem from="1708541570012" duration="2226000" />
+      <workItem from="1708541570012" duration="3026000" />
+      <workItem from="1709139958012" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -164,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708538693924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1708543927647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708543927647</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1708849426302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708849426302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

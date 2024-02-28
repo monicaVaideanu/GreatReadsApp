@@ -19,6 +19,6 @@ public class BookAuthor {
     private String lastName;
 
     private String description;
-    private List<UUID> publishedBooks;
+    //private List<UUID> publishedBooks;
     private String country;
 }

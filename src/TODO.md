@@ -17,6 +17,7 @@ TODO
 - change PK from int to UUID
 - o carte poate apratine unei colectii => add field de colectie
 - separare metode in controllere specifice
+-consume api for review validation and password
 
 Validation:
 -password API?
