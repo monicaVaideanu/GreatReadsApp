@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="Todo" />
+    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="Todo">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/343d2127-302e-48bb-9901-6aa514cbe43d/storage_v2/_src_/schema/GreatReads.MAeQmA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/343d2127-302e-48bb-9901-6aa514cbe43d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/343d2127-302e-48bb-9901-6aa514cbe43d/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/343d2127-302e-48bb-9901-6aa514cbe43d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/343d2127-302e-48bb-9901-6aa514cbe43d/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserWishList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/BookReviewId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/PublishedBookId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/UserReadBookId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/WishListId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/BookReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookToAuthor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserPublishedBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserPublishedBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserReadBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserReadBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserWhislist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +68,19 @@
     "Maven.GreatReadsApp [clean].executor": "Run",
     "Maven.GreatReadsApp [compile].executor": "Run",
     "Maven.GreatReadsApp [install].executor": "Run",
+    "Maven.app [clean,compile,install].executor": "Run",
+    "Maven.app [clean,install].executor": "Run",
     "Maven.app [clean].executor": "Run",
     "Maven.app [compile].executor": "Run",
     "Maven.app [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.Main.executor": "Run",
     "last_opened_file_path": "/Users/monicavaideanu/Desktop/myW/GreatReadsApp/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +97,27 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -86,6 +142,8 @@
       <workItem from="1708541570012" duration="3026000" />
       <workItem from="1709139958012" duration="23000" />
       <workItem from="1709140011674" duration="124000" />
+      <workItem from="1709141835153" duration="7481000" />
+      <workItem from="1709306417076" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -135,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709140129262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1709141851269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709141851269</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

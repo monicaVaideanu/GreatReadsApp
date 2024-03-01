@@ -1,10 +1,17 @@
 package app.entities;
 
-import java.util.Date;
-import java.util.UUID;
+import app.entities.composedId.PublishedBookId;
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
 
+import java.util.Date;
+@Entity
+@Table(name = "user_published_books")
+@Data
 public class UserPublishedBook {
-    private UUID userId;
-    private UUID bookId;
+   @EmbeddedId
+    private PublishedBookId publishedBookId;
     private Date publishDate;
 }

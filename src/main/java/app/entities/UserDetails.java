@@ -1,9 +1,16 @@
 package app.entities;
 
-import java.util.UUID;
+import jakarta.persistence.*;
+import lombok.Data;
 
+@Entity
+@Table(name = "user_details")
+@Data
 public class UserDetails {
-    private UUID idUser;
+    @Id
+    @OneToOne
+    @JoinColumn(name = "id_user")
+    private UserAccount idUser;
     private String firstName;
     private String lastName;
     private String status;

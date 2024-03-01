@@ -1,12 +1,16 @@
 package app.entities;
 
+import app.entities.composedId.BookReviewId;
+import jakarta.persistence.*;
+import lombok.Data;
 import java.util.Date;
-import java.util.UUID;
-
+@Entity
+@Table(name = "book_reviews")
+@Data
 public class BookReview {
-    private UUID userId;
-    private UUID bookId;
+    @EmbeddedId
+    private BookReviewId bookReviewId;
     private String review;
-    private int rating;
+    private Double rating;
     private Date publishDate;
 }
