@@ -1,9 +1,7 @@
 package app.entities;
 
 import app.entities.composedId.PublishedBookId;
-import jakarta.persistence.EmbeddedId;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Date;
@@ -13,5 +11,13 @@ import java.util.Date;
 public class UserPublishedBook {
    @EmbeddedId
     private PublishedBookId publishedBookId;
+    @OneToOne
+    @MapsId("userId")
+    @JoinColumn(name = "id_user")
+    private UserAccount idUser;
+    @OneToOne
+    @MapsId("bookId")
+    @JoinColumn(name = "id_book")
+    private BookList book;
     private Date publishDate;
 }

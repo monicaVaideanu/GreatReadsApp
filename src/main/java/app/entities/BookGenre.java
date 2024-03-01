@@ -12,4 +12,7 @@ public class BookGenre {
     private Integer genreId;
     private String name;
     private String description;
+    @ManyToOne
+    @JoinColumn(name = "bookId")
+    private BookList book;
 }
