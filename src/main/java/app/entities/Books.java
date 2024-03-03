@@ -4,7 +4,6 @@ import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.Check;
-import org.hibernate.annotations.Fetch;
 
 import java.time.Year;
 import java.util.Set;

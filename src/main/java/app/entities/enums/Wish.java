@@ -5,5 +5,6 @@ import lombok.Getter;
 @Getter
 public enum Wish {
     WISH,
+    DONE_READING,
     READ
 }

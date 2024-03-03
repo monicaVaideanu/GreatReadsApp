@@ -21,7 +21,7 @@ public class Review {
     @MapsId("bookId")
     @JoinColumn(name = "book_id")
     private Books bookId;
-    @Check(constraints = "rating > 0.00 AND rating < 5.00")
+
     private Double rating;
 
     private String reviewText;

@@ -1,4 +1,4 @@
-INSERT IGNORE INTO book_genres (genre_Id, name, description)
+INSERT IGNORE INTO genres (genre_id, name, description)
 VALUES
     (1, 'Detective', 'A genre of fiction in which a detective, either professional or amateur, investigates and solves crimes, often murder mysteries.'),
     (2, 'Fantasy', 'A genre of speculative fiction set in imaginary worlds or universes, often involving magic, mythical creatures, and epic battles between good and evil.'),

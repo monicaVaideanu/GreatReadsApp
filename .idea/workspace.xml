@@ -4,44 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="modified tables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/StatusBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/Wish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bookGenres.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bookLanguages.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="refactor db">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/WishReadList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/ComposedId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dbv2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/BookAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/BookReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/BookReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserPublishedBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/UserPublishedBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserReadBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/ReadBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserWishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/delete/WishList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/composedId/BookReviewId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/ReviewComposedId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/composedId/PublishedBookId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/PublishedBookId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/composedId/UserReadBookId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/UserReadBookId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/composedId/WishListId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/composedId/WishListId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/enums/StatusBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/StatusBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/enums/Wish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/enums/Wish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bookGenres.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookGenres.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bookLanguages.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookLanguages.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/users.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +100,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/app/entities/delete" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/app/entities/delete" />
     </key>
   </component>
   <component name="RunManager">
@@ -173,7 +151,7 @@
       <workItem from="1709141835153" duration="7481000" />
       <workItem from="1709306417076" duration="7201000" />
       <workItem from="1709313804533" duration="67000" />
-      <workItem from="1709313912925" duration="23692000" />
+      <workItem from="1709313912925" duration="29901000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -247,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709314126292</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor db">
+      <option name="closed" value="true" />
+      <created>1709468731396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709468731396</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +243,7 @@
     <MESSAGE value="start GreatReadsApp" />
     <MESSAGE value="Todo" />
     <MESSAGE value="modified tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified tables" />
+    <MESSAGE value="refactor db" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor db" />
   </component>
 </project>
