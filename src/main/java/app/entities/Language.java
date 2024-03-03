@@ -4,16 +4,20 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "books_languages")
 @Data
-public class BookLanguage {
+@Table(name = "languages")
+public class Language {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "language_id")
     private Integer languageId;
+
     private String code;
-    private String description;
+    private String name;
 
     @ManyToOne
-    @JoinColumn(name = "bookId")
-    private BookList book;
+    @JoinColumn(name = "book_id")
+    private Books book;
 }
+

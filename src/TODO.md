@@ -17,8 +17,10 @@ TODO
 - change PK from int to UUID
 - o carte poate apratine unei colectii => add field de colectie
 - separare metode in controllere specifice
--consume api for review validation and password
-- planificare de citit pagini pe zi?
+ * consume api for review validation and password
+* planificare de citit pagini pe zi?
+* cartile apartin de o colectie
+
 
 Validation:
 -password API?

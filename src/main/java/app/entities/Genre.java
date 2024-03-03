@@ -4,15 +4,19 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "book_genres")
 @Data
-public class BookGenre {
+@Table(name = "genres")
+public class Genre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer genreId;
+    @Column(name = "genre_id")
+    private Long genreId;
+
     private String name;
+
     private String description;
+
     @ManyToOne
-    @JoinColumn(name = "bookId")
-    private BookList book;
+    @JoinColumn(name = "book_id")
+    private Books book;
 }

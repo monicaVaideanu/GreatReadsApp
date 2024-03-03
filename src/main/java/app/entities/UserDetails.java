@@ -1,5 +1,6 @@
 package app.entities;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -9,10 +10,10 @@ import lombok.Data;
 public class UserDetails {
     @Id
     @OneToOne
-    @JoinColumn(name = "id_user")
-    private UserAccount idUser;
+    @JoinColumn(name ="user_id")
+    private User userId;
     private String firstName;
     private String lastName;
-    private String status;
-
+    @Nullable
+    private String middleName;
 }

@@ -11,7 +11,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Data
 @Embeddable
-public class BookReviewId implements Serializable {
-    private UUID userId;
-    private String bookId;
+public class ReviewComposedId implements Serializable {
+    private Long userId;
+    private Long bookId;
 }
