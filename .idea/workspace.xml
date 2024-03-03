@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="dummyData added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/AuthorRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/CollectionRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/GenreRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/LanguageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserDetailsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" afterDir="false" />
+    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="added repo interfaces">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/AuthorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/BooksDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/CollectionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/GenreDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/LanguagesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/ReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/UserDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/WishReadListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/AuthorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/CollectionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/CollectionRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +153,7 @@
       <workItem from="1709141835153" duration="7481000" />
       <workItem from="1709306417076" duration="7201000" />
       <workItem from="1709313804533" duration="67000" />
-      <workItem from="1709313912925" duration="30596000" />
+      <workItem from="1709313912925" duration="32743000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -237,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709481047977</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added repo interfaces">
+      <option name="closed" value="true" />
+      <created>1709481529427</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709481529427</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +263,7 @@
     <MESSAGE value="modified tables" />
     <MESSAGE value="refactor db" />
     <MESSAGE value="dummyData added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dummyData added" />
+    <MESSAGE value="added repo interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="added repo interfaces" />
   </component>
 </project>

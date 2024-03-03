@@ -1,6 +1,7 @@
 package app.entities;
 
 import app.entities.composedId.ReviewComposedId;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.Check;
@@ -23,7 +24,7 @@ public class Review {
     private Books bookId;
 
     private Double rating;
-
+    @Nullable
     private String reviewText;
 
     private Date publishDate;

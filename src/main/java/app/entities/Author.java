@@ -17,7 +17,7 @@ public class Author {
 
     private String firstName;
     private String lastName;
-
+    @Nullable
     private String description;
     private String country;
 

@@ -10,7 +10,7 @@ import lombok.Data;
 public class Collection {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer collectionId;
+    private Long collectionId;
     private String name;
 
     @OneToOne(mappedBy = "collection")
