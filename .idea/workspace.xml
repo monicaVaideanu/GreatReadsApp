@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="added services">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/configuration/ModelMapperConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/LoginResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +90,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="app.services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -140,7 +148,7 @@
       <workItem from="1709141835153" duration="7481000" />
       <workItem from="1709306417076" duration="7201000" />
       <workItem from="1709313804533" duration="67000" />
-      <workItem from="1709313912925" duration="33380000" />
+      <workItem from="1709313912925" duration="39134000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -254,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709484004412</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added services">
+      <option name="closed" value="true" />
+      <created>1709484527340</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709484527340</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

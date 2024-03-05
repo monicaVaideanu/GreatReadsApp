@@ -9,9 +9,14 @@ import lombok.Data;
 @Data
 public class UserDetails {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_details_id")
+    private Long userDetailsId;
+
     @OneToOne
     @JoinColumn(name ="user_id")
-    private User userId;
+    private User user;
+
     private String firstName;
     private String lastName;
     @Nullable

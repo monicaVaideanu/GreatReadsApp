@@ -8,7 +8,7 @@ import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.validator.constraints.UniqueElements;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users", uniqueConstraints = {@UniqueConstraint(columnNames = "email")})
 @Data
 public class User {
     @Id
