@@ -10,9 +10,14 @@ import java.util.Set;
 
 @Repository
 public interface BookRepo extends JpaRepository<Books, Long> {
-    Optional<Books> findByNameAndAndAuthors(String name, Set<Long> authors);
-    Optional<Books> findByName(String name);
     Optional<Books> findById(Long id);
+    Long findByName(String name);
+    Set<Books> findAllByAuthorsContains(Long id);
+    Set<Books> findAllByGenresContains(Long id);
+    Set<Books> findAllByLanguagesContains(Long id);
+//    Set<Books> findAllByCollectionId(Long id);
+//    boolean updateBooks(Books book);
 
-    void deleteById(Long id);
+
+
 }

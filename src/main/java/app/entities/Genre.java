@@ -12,7 +12,7 @@ public class Genre {
     @Column(name = "genre_id")
     private Long genreId;
 
-    private String name;
+    private String genreName;
 
     private String description;
 

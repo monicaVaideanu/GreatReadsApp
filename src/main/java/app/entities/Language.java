@@ -14,7 +14,7 @@ public class Language {
     private Long languageId;
 
     private String code;
-    private String name;
+    private String languageName;
 
     @ManyToOne
     @JoinColumn(name = "book_id")
