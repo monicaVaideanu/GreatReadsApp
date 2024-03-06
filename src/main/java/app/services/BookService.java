@@ -44,7 +44,7 @@ public class BookService {
         }
     }
 
-//    public void updateBook(BooksDto bookDto) {
+//    public boolean updateBook(String bookName, String newDescription, String newYear, String) {
 //        Long id = bookRepo.findByName(bookDto.getName());
 //        Optional<Books> book = bookRepo.findById(id);
 //        if (book.isPresent()) {

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="added stub methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/exceptions/DoesnotExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/exceptions/UpdateFailed.java" afterDir="false" />
+    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="bookService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/exceptions/BookAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/exceptions/AlreadyExistsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/GenreRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/GenreRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/LanguageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/LanguageRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +145,7 @@
       <workItem from="1709306417076" duration="7201000" />
       <workItem from="1709313804533" duration="67000" />
       <workItem from="1709313912925" duration="39134000" />
-      <workItem from="1709624078691" duration="9534000" />
+      <workItem from="1709624078691" duration="11086000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -290,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709708900759</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="bookService">
+      <option name="closed" value="true" />
+      <created>1709714782695</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709714782695</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +308,7 @@
     <MESSAGE value="added services" />
     <MESSAGE value="fixed some errors" />
     <MESSAGE value="added stub methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added stub methods" />
+    <MESSAGE value="bookService" />
+    <option name="LAST_COMMIT_MESSAGE" value="bookService" />
   </component>
 </project>
