@@ -42,5 +42,4 @@ public class Books {
 
     @ManyToMany(mappedBy = "publishedBooks", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Set<Author> authors;
-
 }

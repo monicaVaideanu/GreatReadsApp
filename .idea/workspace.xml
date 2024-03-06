@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="added services">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/LoginResponseDTO.java" afterDir="false" />
+    <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="fixed some errors">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/dtos/CreateUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/exceptions/BookAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/dtos/BooksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dtos/BooksDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/LoginResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dtos/LoginResponseDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,45 +57,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.GreatReadsApp [clean].executor": "Run",
-    "Maven.GreatReadsApp [compile].executor": "Run",
-    "Maven.GreatReadsApp [install].executor": "Run",
-    "Maven.app [clean,compile,install].executor": "Run",
-    "Maven.app [clean,install].executor": "Run",
-    "Maven.app [clean].executor": "Run",
-    "Maven.app [compile].executor": "Run",
-    "Maven.app [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.Main.executor": "Run",
-    "last_opened_file_path": "/Users/monicavaideanu/Desktop/myW/GreatReadsApp/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.GreatReadsApp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GreatReadsApp [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GreatReadsApp [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.app [clean,compile,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.app [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.app [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.app [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/monicavaideanu/Desktop/myW/GreatReadsApp/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="app.exceptions" />
+      <recent name="app.dtos" />
       <recent name="app.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -125,7 +132,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-92e50af3" />
       </set>
     </attachedChunks>
   </component>
@@ -149,6 +156,7 @@
       <workItem from="1709306417076" duration="7201000" />
       <workItem from="1709313804533" duration="67000" />
       <workItem from="1709313912925" duration="39134000" />
+      <workItem from="1709624078691" duration="5376000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -270,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709484527340</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed some errors">
+      <option name="closed" value="true" />
+      <created>1709624386195</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709624386195</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +301,7 @@
     <MESSAGE value="added repo interfaces" />
     <MESSAGE value="added dtos" />
     <MESSAGE value="added services" />
-    <option name="LAST_COMMIT_MESSAGE" value="added services" />
+    <MESSAGE value="fixed some errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some errors" />
   </component>
 </project>

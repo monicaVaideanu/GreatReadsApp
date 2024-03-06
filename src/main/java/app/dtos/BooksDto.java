@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.Year;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
@@ -31,4 +32,9 @@ public class BooksDto {
     @Positive(message = "Average rating cannot be negative.")
     @Max(value = 5, message = "Average rating cannot be greater than 5.")
     private Double avrRating;
+
+    private Set<Long> genreIds;
+    private Set<Long> languageIds;
+    private Long collectionId;
+    private Set<Long> authorIds;
 }

@@ -8,4 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 @AllArgsConstructor
 public class AuthorService {
+    public void publishBook(){
+    }
+
 }
