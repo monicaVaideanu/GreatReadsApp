@@ -14,6 +14,7 @@ public class Language {
     private Long languageId;
 
     private String code;
+    @Column(name = "language_name")
     private String languageName;
 
     @ManyToOne

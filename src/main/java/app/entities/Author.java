@@ -23,7 +23,7 @@ public class Author {
 
     @OneToOne
     @Nullable
-    private User userId;
+    private UserDetails userId;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
     @JoinTable(name = "books_to_authors",

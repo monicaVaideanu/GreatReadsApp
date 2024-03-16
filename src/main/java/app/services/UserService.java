@@ -1,15 +1,13 @@
 package app.services;
 
 import app.repositories.UserDetailsRepo;
-import app.repositories.UserRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
 public class UserService {
-    private final UserRepo userRepo;
-    private final UserDetailsRepo userDetailsRepo;
+    private final UserDetailsRepo userRepo;
 
     public void createUser() {
     }

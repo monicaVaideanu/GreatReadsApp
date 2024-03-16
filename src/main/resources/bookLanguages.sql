@@ -1,4 +1,4 @@
-INSERT IGNORE INTO languages (language_id, code, name)
+INSERT IGNORE INTO languages(language_id, code, language_name)
 VALUES (1, 'EN', 'English'),
        (2, 'ES', 'Spanish'),
        (3, 'FR', 'French'),

@@ -1,11 +1,10 @@
 package app.services;
 
+import app.exceptions.AlreadyExistsException;
 import app.dtos.AuthorDto;
 import app.dtos.BooksDto;
 import app.entities.Books;
-import app.exceptions.AlreadyExistsException;
 import app.exceptions.DoesnotExistException;
-import app.exceptions.UpdateFailed;
 import app.repositories.*;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
@@ -23,9 +22,9 @@ public class BookService {
     @Autowired
     private final BookRepo bookRepo;
     @Autowired
-    private final ModelMapper mapper;
-    @Autowired
     private final AuthorRepo authorRepo;
+
+    private final ModelMapper mapper;
     @Autowired
     private final GenreRepo genreRepo;
     @Autowired
@@ -43,19 +42,6 @@ public class BookService {
             throw new AlreadyExistsException("Book already exists.");
         }
     }
-
-//    public boolean updateBook(String bookName, String newDescription, String newYear, String) {
-//        Long id = bookRepo.findByName(bookDto.getName());
-//        Optional<Books> book = bookRepo.findById(id);
-//        if (book.isPresent()) {
-//            boolean updated = bookRepo.updateBooks(mapper.map(bookDto, Books.class));
-//            if (!updated) {
-//                throw new UpdateFailed("Update failed.");
-//            }
-//        } else {
-//            throw new DoesnotExistException("Book doesn't exist.");
-//        }
-//    }
 
     public void deleteBook(BooksDto booksDto) {
         Long id = bookRepo.findByName(booksDto.getName());

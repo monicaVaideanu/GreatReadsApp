@@ -19,7 +19,7 @@ public class WishReadList {
     @OneToOne
     @MapsId("userId")
     @JoinColumn(name = "user_id")
-    private User userId;
+    private UserDetails userId;
     @OneToOne
     @MapsId("bookId")
     @JoinColumn(name = "book_id")

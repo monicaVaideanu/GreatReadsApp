@@ -4,7 +4,7 @@ import app.entities.composedId.ReviewComposedId;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.Check;
+
 
 import java.util.Date;
 
@@ -17,7 +17,7 @@ public class Review {
     @OneToOne
     @MapsId("userId")
     @JoinColumn(name = "user_id")
-    private User userId;
+    private UserDetails userId;
     @OneToOne
     @MapsId("bookId")
     @JoinColumn(name = "book_id")

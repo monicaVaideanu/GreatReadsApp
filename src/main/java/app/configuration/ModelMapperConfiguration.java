@@ -1,7 +1,5 @@
 package app.configuration;
 
-import app.dtos.UserDto;
-import app.entities.User;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
