@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e068b4-9f1b-4538-a0dc-1dbe120d58f2" name="Changes" comment="bookService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/configuration/ModelMapperConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/configuration/ModelMapperConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/AuthorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dtos/UserDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dtos/UserDetailsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dtos/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/UserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/WishReadList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/WishReadList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/BookRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/ReviewRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/UserDetailsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserDetailsRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WishReadListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/CollectionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/CollectionRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bookGenres.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookGenres.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bookLanguages.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookLanguages.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/books.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +158,7 @@
       <workItem from="1710002887170" duration="90000" />
       <workItem from="1710087200406" duration="41000" />
       <workItem from="1710247684197" duration="606000" />
-      <workItem from="1710514500219" duration="1929000" />
+      <workItem from="1710514500219" duration="2269000" />
     </task>
     <task id="LOCAL-00001" summary="start GreatReadsApp">
       <option name="closed" value="true" />
@@ -337,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709746323513</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bookService">
+      <option name="closed" value="true" />
+      <created>1710578849378</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710578849378</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
