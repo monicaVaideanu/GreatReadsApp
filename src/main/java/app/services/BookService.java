@@ -23,7 +23,7 @@ public class BookService {
     private final BookRepo bookRepo;
     @Autowired
     private final AuthorRepo authorRepo;
-
+    @Autowired
     private final ModelMapper mapper;
     @Autowired
     private final GenreRepo genreRepo;
@@ -79,6 +79,9 @@ public class BookService {
     }
 
     public void getBooksByCollection(String collectionName) {
+        if (collectionRepo.findByName(collectionName)) {
+            throw new DoesnotExistException("Collection doesn't exist.");
+        }
     }
 
     public void getBooksByYear() {

@@ -7,10 +7,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(path = "/user")
 public class UserController {
-    @GetMapping(path = "/hello")
-    public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello");
-    }
 
     @GetMapping("/create")
     public ResponseEntity<String> createUser(@RequestBody CreateUserDto userBody) {
